@@ -8,5 +8,6 @@ group :development do
   # This path works between the actual path and the Aruba tmp dir, but seems
   # fragile. Could do a recursive search for microbus.gemspec instead.
   path = '../../../.'
+  gem 'json', '1.8.6'
   gem 'microbus', path: path if File.exist?("#{path}/microbus.gemspec")
 end

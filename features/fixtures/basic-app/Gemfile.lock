@@ -9,6 +9,7 @@ PATH
   remote: .
   specs:
     basic (0.0.1)
+      json
       oj
       sequel
 
@@ -34,7 +35,7 @@ GEM
     git (1.9.1)
       rchardet (~> 1.8)
     insist (1.0.0)
-    json (2.6.1)
+    json (1.8.6)
     mustache (0.99.8)
     oj (3.13.9)
     pleaserun (0.0.32)
@@ -55,6 +56,7 @@ PLATFORMS
 
 DEPENDENCIES
   basic!
+  json (= 1.8.6)
   microbus!
   rake
 
